@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+.container{
+    background-color: rgba(15, 20, 25, 0.7);
+   width: 400px;
+    margin :20px auto; 
+    padding: 10px;
+    border-radius: 10px;
+    color: f1f1f9;
+    
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        margin-Buttom: 5px;
+    }
+    .input-cotainer input,
+    select {
+        padding: 5px;
+        border:1px solid blue;
+        border-radius: 5px;
+    }
+    
+    
+}
+.container button{
+    padding: 10px 20px;
+    width:10;
+}
+.container button:hover{
+    cursor:pointer;
+}
